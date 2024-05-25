@@ -11,12 +11,12 @@ function saveScore(score) {
 
 // Инициализация счета при загрузке страницы
 let score = loadScore();
-document.getElementById('score').innerText ='score: ' + score;
+document.getElementById('score').innerText = score;
 
 // Добавление обработчика события клика на картинку
 document.getElementById('clickableImage').addEventListener('click', () => {
     score += 1;
-    document.getElementById('score').innerText = 'score: ' + score;
+    document.getElementById('score').innerText = score;
     saveScore(score);
 });
 

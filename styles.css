@@ -35,3 +35,8 @@ body {
 footer {
     margin-top: 50px;
 }
+
+h1 {
+    align-self: center;
+    justify-self: center;
+}
