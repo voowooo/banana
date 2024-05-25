@@ -9,17 +9,24 @@
 <body>
     <div class="menu" id="menu">
         <h1>Menu</h1>
-        <h3>change name</h3>
-        <h3>reset</h3>
-        <h3>close</h3>
+        <h3 onclick="showPurchasedTokens()">Purchased Tokens</h3>
+        <h3 onclick="back('menu')">Close</h3>
         <footer class="footer">
             <p>dev by voowooo</p>
             <p>ver 0.0.1#closed</p>
         </footer>
     </div>
-    <!-- <h1 onclick="menu()">Hey bro</h1> -->
-    <h1 id="score"></h1>
+    <h1 id="score" onclick="menu()"></h1>
     <img src="images/banan.png" alt="banan" class="banan" id="clickableImage">
+    <div class="token-container">
+        <h2>Tokens</h2>
+        <div id="tokens"></div>
+    </div>
+    <div class="purchased-tokens-container" id="purchasedTokensContainer" style="display: none;">
+        <h2>Purchased Tokens</h2>
+        <div id="purchasedTokens"></div>
+        <button onclick="closePurchasedTokens()">Close</button>
+    </div>
     <script src="scripts.js"></script>
 </body>
 </html>
