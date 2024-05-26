@@ -115,3 +115,10 @@ h3:hover {
 h3 {
     margin: 4px;
 }
+
+select {
+    background-color: rgb(123, 123, 123);
+    color: white;
+    font-size: 15px;
+    border-radius: 7px;
+}
