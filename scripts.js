@@ -48,6 +48,7 @@ function loadTokens() {
         { name: 'CapiToken', level: 1, price: 10, income: 1, image: 'images/TokenImages/token1.png' },
         { name: 'PassaToken', level: 1, price: 100, income: 10, image: 'images/TokenImages/token2.png' },
         { name: 'KrubsBUg', level: 1, price: 1000, income: 100, image: 'images/TokenImages/token3.png' },
+        { name: 'Black Coin', level: 1, price: 1499, income: 52, image: 'images/TokenImages/token4.png' },
     ];
 }
 
@@ -183,6 +184,7 @@ function resetProgress() {
             { name: 'CapiToken', level: 1, price: 10, income: 1, image: 'images/TokenImages/token1.png' },
             { name: 'PassaToken', level: 1, price: 100, income: 10, image: 'images/TokenImages/token2.png' },
             { name: 'KrubsBUg', level: 1, price: 1000, income: 100, image: 'images/TokenImages/token3.png' },
+            { name: 'Black Coin', level: 1, price: 1499, income: 52, image: 'images/TokenImages/token4.png' },
         ];
         saveScore(score);
         savePurchasedTokens(purchasedTokens);
